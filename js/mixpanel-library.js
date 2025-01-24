@@ -5,3 +5,5 @@ for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElemen
 }
 
 const loggingAPI = mixpanel.init("4f6fe8bc088a679ce8b3d5e2d5ed43d8", {batch_flush_interval_ms: 1000, cross_subdomain_cookie: false, ignore_dnt: true, track_pageview: 'full-url'});
+
+const tempCall = console.log("Is this going to work?");
